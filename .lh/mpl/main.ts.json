@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1656584169075,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656585078930,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -28,11 +28,11 @@\n         payer: myKeypair.publicKey,\r\n         updateAuthority: myKeypair.publicKey,\r\n     }\r\n     const dataV2 = {\r\n-        name: \"Agrichainx Tribe\",\r\n-        symbol: \"AGXT\",\r\n-        uri: \"logo url link\",\r\n+        name: \" Your Token Name\",\r\n+        symbol: \" Your Token Symbol\",\r\n+        uri: \"Image Url upload\",\r\n         // we don't need that\r\n         sellerFeeBasisPoints: 0,\r\n         creators: null,\r\n         collection: null,\r\n"
                 }
             ],
             "date": 1656584169075,
