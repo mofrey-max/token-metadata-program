@@ -1,0 +1,22 @@
+{
+    "sourceFile": "README.md",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1656584534467,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1656584668746,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,8 @@\n # token-metadata-program\r\n Create Solana Spl Metadata program to update token metadata credentials\r\n \r\n+Required Dendencies\r\n # npm install --global typescript\r\n # npm install --save @solana/web3.js\r\n # npm install --save @solana/web3.js\r\n # npm i @project-serum/anchor\r\n"
+                }
+            ],
+            "date": 1656584534467,
+            "name": "Commit-0",
+            "content": "# token-metadata-program\r\nCreate Solana Spl Metadata program to update token metadata credentials\r\n\r\n# npm install --global typescript\r\n# npm install --save @solana/web3.js\r\n# npm install --save @solana/web3.js\r\n# npm i @project-serum/anchor\r\n\r\n# npm i @metaplex-foundation/mpl-token-metada\r\n# If the the code has help you remmeber to give the repo a star\r\n"
+        }
+    ]
+}

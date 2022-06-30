@@ -15,8 +15,8 @@ const INITIALIZE = false;
 
 async function main(){
     console.log("let's name some tokens!");
-    const myKeypair = loadWalletKey("id.json");
-    const mint = new web3.PublicKey("8U5f9781hWjUGhDoPfiVEGqsT36zNEPzVSaFHnM4JssR");
+    const myKeypair = loadWalletKey("Your Keypair");
+    const mint = new web3.PublicKey("Your Token Address");
     const seed1 = Buffer.from(anchor.utils.bytes.utf8.encode("metadata"));
     const seed2 = Buffer.from(mpl.PROGRAM_ID.toBytes());
     const seed3 = Buffer.from(mint.toBytes());
@@ -31,7 +31,7 @@ async function main(){
     const dataV2 = {
         name: "Agrichainx Tribe",
         symbol: "AGXT",
-        uri: "https://shdw-drive.genesysgo.net/Hpn6pxvLAjVW8btq13RLSitsFepfhxsxwVz2A1qCMZ4T/tokenmeta.json",
+        uri: "logo url link",
         // we don't need that
         sellerFeeBasisPoints: 0,
         creators: null,
