@@ -15,10 +15,10 @@ To add metadata, update data in intial.js file. Following are three important pa
 1. You can get the path from SOL cli using 'solana config get'
 > const myKeypair = loadWalletKey("Your Keypair");
 
-2. 
+2. Add your token address here, this is equal to pubkey from solana cli
 > const mint = new web3.PublicKey("Your Token Address");
 
-3.
+3. Give your token a uniqur name & symbol. Also add image url for your token.
 ```
 const dataV2 = {
   name: " Your Token Name",
