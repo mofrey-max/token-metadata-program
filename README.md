@@ -8,4 +8,4 @@ Required Dendencies
 # npm i @project-serum/anchor
 
 # npm i @metaplex-foundation/mpl-token-metada
-# If the the code has help you remmeber to give the repo a star
+# If the the code has helped you remember to give the repo a star
